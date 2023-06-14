@@ -1,8 +1,4 @@
-.imagen-de-gatos {
-  width: 200px;
-   /*width cambia el tamaño de img  */
-  border-width: 10px;
-  border-color: blue;
-  border-style: groove;
-  /* border = borde... border-style puede tener más de un valor, ej: "border-style: solid dashed dotted double;" los valores se aplicarán a la imagen en el orden de las agujas del reloj */
+.bordes-redondeados {
+  border-radius: 10%;
 }
+/* los elementos img (imagenes) con la clase bordes-redondeados se mostrarán en la página con sus bordes redondeados, la imagen se verá circular con 50% en border-radius, también se puede especificar el valor por pixeles */
