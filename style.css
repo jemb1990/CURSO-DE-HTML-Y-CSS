@@ -1,4 +1,5 @@
-.bordes-redondeados {
-  border-radius: 10%;
+/* linea 22 */
+.contenedor-listas {
+  background-color: chocolate;
 }
-/* los elementos img (imagenes) con la clase bordes-redondeados se mostrarán en la página con sus bordes redondeados, la imagen se verá circular con 50% en border-radius, también se puede especificar el valor por pixeles */
+/* la propiedad background-color en este selector de clase aplica un fondo con color a los elementos dentro del contenedor div */
