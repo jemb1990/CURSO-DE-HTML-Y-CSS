@@ -5,11 +5,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Love+Ya+Like+A+Sister&family=Passion+One&display=swap" rel="stylesheet">
+    <!-- los atributos de los elementos link de arriba se usan para aplicar fuentes de texto externas de google en css -->
     <link href="style.css" rel="stylesheet">
     <!-- El orden de los atributos en las etiquetas no afecta el contenido. -->
   </head>
   <body>
-    <h2>AppDeGatos</h2>
+    <h2 id="titulo-principal">AppDeGatos</h2>
     <hr>
     <main>
       <h3>Imágenes de Gatos:</h3>
@@ -21,7 +22,7 @@
 
       <div class="contenedor-listas">
         <p>Cosas que los gatos <em>aman</em>:</p>
-        <ul>
+        <ul id="lista-gatos-aman">
           <li>Menta gatuna</li>
           <li>Apuntadores láser</li>
           <li><s>Lasaña</s></li>
@@ -29,13 +30,13 @@
         <img src="imagenes/lasana.jpg" alt="lasaña">
 
         <p>Cosas que los gatos <strong>odian</strong>:</p>
-        <ol>
+        <ol id="lista-gatos-odian">
           <li>Tratamientos antipulgas</li>
           <li>Truenos</li>
           <li>Otros gatos</li>
         </ol>
       </div>      
-      <img src="imagenes/gatos.jpg" alt="grupo de gatos">
+      <img id="imagen-gatos" src="imagenes/gatos.jpg" alt="grupo de gatos">
       
       <form action="/enviarRespuesta">
 

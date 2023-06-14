@@ -1,5 +1,28 @@
-/* linea 22 */
-.contenedor-listas {
-  background-color: chocolate;
+/* id para personalizar el elemento h2 en linea 3 */
+/* las IDs en css deben comenzar con el simbolo # */
+#titulo-principal {
+  font-size: 34px;
+  color: crimson;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* la propiedad background-color en este selector de clase aplica un fondo con color a los elementos dentro del contenedor div */
+
+/* id para personalizar el elemento img en linea 39 */
+#imagen-gatos {
+  border-color: blue;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+/* id para personalizar el elemento ul en linea 25 */
+#lista-gatos-aman {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+/* id para personalizar el elemento ol en linea 33 */
+#lista-gatos-odian {
+  font-size: 20px;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
