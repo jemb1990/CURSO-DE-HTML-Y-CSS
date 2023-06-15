@@ -1,28 +1,15 @@
-/* id para personalizar el elemento h2 en linea 3 */
-/* las IDs en css deben comenzar con el simbolo # */
-#titulo-principal {
-  font-size: 34px;
-  color: crimson;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+div {
+  background-color: crimson;
 }
 
-/* id para personalizar el elemento img en linea 39 */
-#imagen-gatos {
-  border-color: blue;
-  border-width: 20px;
+img {
+  padding: 20px 15px 5px 10px;
+  background-color: yellow;
+  border-width: 3px;
+  border-color: black;
   border-style: solid;
-  border-radius: 50%;
 }
 
-/* id para personalizar el elemento ul en linea 25 */
-#lista-gatos-aman {
-  font-size: 15px;
-  color: blueviolet;
-}
+/* padding es la distancia entre el contenido de un elemento html (la imagen) y su borde para que haya un espacio entre el contenido y el borde del elemento, este último será esencial para determinar la distancia que hay entre un elemento y otro en la página web */
 
-/* id para personalizar el elemento ol en linea 33 */
-#lista-gatos-odian {
-  font-size: 20px;
-  color: blue;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* "padding: 20px 15px 5px 10px;" parte superior (20px), derecha (15px), parte inferior (5px) e izquierda (10px), sentido de las agujas del reloj  */

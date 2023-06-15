@@ -10,33 +10,35 @@
     <!-- El orden de los atributos en las etiquetas no afecta el contenido. -->
   </head>
   <body>
-    <h2 id="titulo-principal">AppDeGatos</h2>
+    <h2>AppDeGatos</h2>
     <hr>
     <main>
       <h3>Imágenes de Gatos:</h3>
       <p>Haz click aquí para ver más <a href="#">imágenes de gatos.</a></p>
 
-      <a href="https://www.anipedia.net/gatos/" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Lindo gato naranja acostado"></a>
+      <div>
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="Lindo gato naranja acostado">
+      </div>
+
       <hr>
+      
       <h3>Listas de gatos</h3>
 
-      <div class="contenedor-listas">
-        <p>Cosas que los gatos <em>aman</em>:</p>
-        <ul id="lista-gatos-aman">
-          <li>Menta gatuna</li>
-          <li>Apuntadores láser</li>
-          <li><s>Lasaña</s></li>
-        </ul>
-        <img src="imagenes/lasana.jpg" alt="lasaña">
+      <p>Cosas que los gatos <em>aman</em>:</p>
+      <ul>
+        <li>Menta gatuna</li>
+        <li>Apuntadores láser</li>
+        <li><s>Lasaña</s></li>
+      </ul>
+      <img src="imagenes/lasana.jpg" alt="lasaña">
+      <p>Cosas que los gatos <strong>odian</strong>:</p>
+      <ol>
+        <li>Tratamientos antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
 
-        <p>Cosas que los gatos <strong>odian</strong>:</p>
-        <ol id="lista-gatos-odian">
-          <li>Tratamientos antipulgas</li>
-          <li>Truenos</li>
-          <li>Otros gatos</li>
-        </ol>
-      </div>      
-      <img id="imagen-gatos" src="imagenes/gatos.jpg" alt="grupo de gatos">
+      <img src="imagenes/gatos.jpg" alt="grupo de gatos">
       
       <form action="/enviarRespuesta">
 
