@@ -3,13 +3,11 @@ div {
 }
 
 img {
-  padding: 20px 15px 5px 10px;
+  margin: 15px;
   background-color: yellow;
-  border-width: 3px;
+  border-width: 2px;
   border-color: black;
   border-style: solid;
 }
 
-/* padding es la distancia entre el contenido de un elemento html (la imagen) y su borde para que haya un espacio entre el contenido y el borde del elemento, este último será esencial para determinar la distancia que hay entre un elemento y otro en la página web */
-
-/* "padding: 20px 15px 5px 10px;" parte superior (20px), derecha (15px), parte inferior (5px) e izquierda (10px), sentido de las agujas del reloj  */
+/* el margin (margen) marca la distancia entre el borde de la imagen y otro elemento que la rodee, ningún otro elemento va a estar dentro de esa distancia del elemento de la imagen */
