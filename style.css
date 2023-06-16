@@ -1,34 +1,23 @@
-#contenedor-principal {
-  color: white;
-  padding: 5px;
-  font-size: 10px;
-  background-color: grey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* .morado {
+  color: purple;
 }
 
-.rectangulo {
-  padding: 5px;
-  margin: 5px;
+.azul {
+  color: blue;
+} */
+
+/* el orden de las clases en el archivo html (class="azul morado") no afecta el resultado final, pero en el archivo css la última clase (azul) va a tener prioridad en el resultado, si hay un conflicto entre las dos clases se va a escoger la última */
+
+.sin-subrayado {
+  text-decoration: none;
 }
 
-.px {
-  background-color: crimson;
-  width: 200px;
-  /* la unidad px es una unidad de longitud absoluta, el contenido del elemento tendrá siempre el mismo tamaño, en este caso 200px */
+a {
+  text-decoration: blueviolet wavy underline;
 }
 
-.vw {
-  background-color: darkmagenta;
-  width: 20vw;
-  /* 20vw representa el 20% del ancho de la ventana del navegador */
-  /* la unidad vw es una unidad de longitud relativa, las dimensiones del contenido del elemento son relativas a algo más, por ejemplo, al tamaño de letra del elemento principal o al tamaño de la ventana gráfica. El tamaño escala en relación con todo lo demás en la página */
-}
+/* En este ultimo ejemplo, se aplicarán los estilos de las reglas que utiliza el selector de clase .sin-subrayado ya que tiene una especificidad mayor, lo que le da prioridad sobre un selector más genérico como el de tipo 'a'.
 
-.em {
-  background-color: green;
-  width: 15em;
-  /* la unidad em es una unidad de longitud relativa, es relativa al tamaño del texto, en este caso el tamaño de la fuente (font-size) en el selector de id #contenedor-principal, 15em = 15 veces */
-  /* si se usa la propiedad "font-size: 1.5em" en este selector de clase, se está diciendo que el tamaño de la letra del contenido debe ser 1.5 veces el valor del font-size en #contenedor-principal */
-}
-/* cada selector de clase en este caso .px .vw y .em definen las propiedades (color de fondo y dimensiones) de rectangulos en la página */
-/* el tamaño de fuente (font-size) se hereda de los elementos padres, lo que significa que si no se especifica un tamaño de fuente para un elemento hijo, se heredará el tamaño de fuente del elemento padre. Además, si se utiliza una unidad de medida relativa como "em" o "%" para el tamaño de fuente, el tamaño de fuente se ajustará automáticamente en función del tamaño de fuente del elemento padre. */
+En general, los selectores en CSS se priorizan de esta forma: id > clase > tipo. No obstante, las propiedades del atributo style en html (estilo en línea) tienen la mayor prioridad, por encima de las propiedades de los selectores en CSS.
+
+La especificidad es más importante que el tipo de selector o la clase, por lo que un selector más específico tendrá mayor prioridad sobre uno menos específico.*/
