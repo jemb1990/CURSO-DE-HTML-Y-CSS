@@ -1,24 +1,34 @@
-/* selectores de atributo (siempre entre corchetes) */
-img[alt="Lasaña"] {
-  border-radius: 50%;
+#contenedor-principal {
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-[type="radio"] {
+.rectangulo {
+  padding: 5px;
   margin: 5px;
 }
 
-[type="checkbox"] {
-  margin: 8px;
+.px {
+  background-color: crimson;
+  width: 200px;
+  /* la unidad px es una unidad de longitud absoluta, el contenido del elemento tendrá siempre el mismo tamaño, en este caso 200px */
 }
 
-a[href="https://www.anipedia.net/gatos/"] {
- color: green;
- text-decoration: none;
- font-weight: bold; 
+.vw {
+  background-color: darkmagenta;
+  width: 20vw;
+  /* 20vw representa el 20% del ancho de la ventana del navegador */
+  /* la unidad vw es una unidad de longitud relativa, las dimensiones del contenido del elemento son relativas a algo más, por ejemplo, al tamaño de letra del elemento principal o al tamaño de la ventana gráfica. El tamaño escala en relación con todo lo demás en la página */
 }
 
-/* el selector de atributo selecciona los elementos que tengan un atributo especifico */
-
-/* con [type="radio"] se selecciona los elementos que tienen el atributo type con el valor radio, en este caso los botones de radio (interior/exterior) en la página */
-
-/* con img[alt] se selecciona los elementos img que tienen el atributo alt */
+.em {
+  background-color: green;
+  width: 15em;
+  /* la unidad em es una unidad de longitud relativa, es relativa al tamaño del texto, en este caso el tamaño de la fuente (font-size) en el selector de id #contenedor-principal, 15em = 15 veces */
+  /* si se usa la propiedad "font-size: 1.5em" en este selector de clase, se está diciendo que el tamaño de la letra del contenido debe ser 1.5 veces el valor del font-size en #contenedor-principal */
+}
+/* cada selector de clase en este caso .px .vw y .em definen las propiedades (color de fondo y dimensiones) de rectangulos en la página */
+/* el tamaño de fuente (font-size) se hereda de los elementos padres, lo que significa que si no se especifica un tamaño de fuente para un elemento hijo, se heredará el tamaño de fuente del elemento padre. Además, si se utiliza una unidad de medida relativa como "em" o "%" para el tamaño de fuente, el tamaño de fuente se ajustará automáticamente en función del tamaño de fuente del elemento padre. */
